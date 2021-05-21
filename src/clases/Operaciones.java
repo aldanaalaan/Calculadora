@@ -31,10 +31,6 @@ public class Operaciones {
                         System.out.print("Dame el valor: ");
                         Valor1 = entrada.nextDouble();
                         System.out.println("");
-
-                } else if (Opcion == 7) {
-
-                        //System.out.println("Cerrando programa...");
                         
                 } else if (Opcion == 5) {
 
@@ -106,7 +102,6 @@ public class Operaciones {
 
                 if (Opcion <= 6 && Opcion >= 1) {
 
-                        //System.out.println("");
                         System.out.println("El resultado de tu operacion es: " + Resultado);
 
                         Resultado();
