@@ -54,11 +54,7 @@ public class Operaciones {
                         Valor2 = entrada.nextDouble();
                         System.out.println("");
 
-                } else {
-                        
-                        System.out.println("");
-                        System.out.println("Opreacion no valida.");
-                }
+                } 
         }
 
         private void Calculo() {
@@ -106,10 +102,12 @@ public class Operaciones {
 
                         Resultado();
                 } else if (Opcion == 7) {
-
+                        System.out.println("");
                         System.out.println("Cerrando programa...");
 
                 } else {
+                        System.out.println("");
+                        System.out.println("Operacion no valida"); 
                         Resultado();
                 }
         }
