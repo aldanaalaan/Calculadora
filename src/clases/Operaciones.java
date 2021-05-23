@@ -1,11 +1,13 @@
 package clases;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Operaciones {
 
         //Objeto Scanner
         private Scanner entrada = new Scanner(System.in);
+        private DecimalFormat formato1 = new DecimalFormat("#.000");
 
         //Variables
         private int Opcion;
@@ -98,7 +100,7 @@ public class Operaciones {
 
                 if (Opcion <= 6 && Opcion >= 1) {
 
-                        System.out.println("El resultado de tu operacion es: " + Resultado);
+                        System.out.println("El resultado de tu operacion es: " + formato1.format(Resultado));
 
                         Resultado();
                 } else if (Opcion == 7) {
